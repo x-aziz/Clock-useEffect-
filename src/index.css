@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-image: url("./assets/simon-berger-aZjw7xI3QAA-unsplash.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+  font-size: 4.9rem;
+  font-weight: bolder;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  backdrop-filter: blur(2px);
+  background-color: rgba(196, 194, 194, 0.3);
+  width: 600px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+.container1 {
+  backdrop-filter: blur(2px);
+  background-color: rgba(196, 194, 194, 0.3);
+  width: 200px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  height: 100px;
+  font-size: 1.9rem;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+.component {
+  display: flex;
+  gap: 10px;
+  
+}
